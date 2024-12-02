@@ -1,24 +1,30 @@
-.header {
-    background-color: navajowhite;
-    text-align: center;
-    width: 5em;
-    margin: auto
-}
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
 
-h2 {
-    text-align: center;
-    color: rosybrown;
-    background-color: mediumaquamarine;
-    border-width: 100px;
-    width: 10em;
-    margin: 1vh auto;
-    
-}
-
-.button1 {
+body {
+    background-image: linear-gradient(to right, #ffcdb2, #6d6875);
+    min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     justify-content: center;
-    height: 5vh;
+    align-items: center;
+    margin: 0
+}
+
+div {
+    justify-content: center;
+    align-items: center;
+    margin:  2em;
+}
+
+#counter {
+    display: block;
+    font-family: "Jaro", sanserif;
+}
+
+#buttonCounter {
+    padding: 2px;
+    display: block;
+    height: 2em;
 
 
 }
