@@ -17,14 +17,21 @@ div {
 }
 
 #counter {
-    display: block;
+    justify-content: center;
     font-family: "Jaro", sanserif;
+    text-align: center;
 }
 
 #buttonCounter {
     padding: 2px;
     display: block;
     height: 2em;
+    background-image: linear-gradient(to right, #6d6875, #ffcdb2);
+    border-radius: 12%;
+    font-family: "Jaro", sanserif
 
+}
 
+#buttonCount {
+    justify-content: center;
 }
