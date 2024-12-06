@@ -24,14 +24,32 @@ div {
 
 #buttonCounter {
     padding: 2px;
-    display: block;
+    display: inline-flex;
     height: 2em;
     background-image: linear-gradient(to right, #6d6875, #ffcdb2);
     border-radius: 12%;
-    font-family: "Jaro", sanserif
+    font-family: "Jaro", sanserif;
+}
 
+#buttonCounter2 {
+    padding: 2px;
+    display: inline-flex;
+    height: 2em;
+    background-image: linear-gradient(to right, #6d6875, #ffcdb2);
+    border-radius: 12%;
+    font-family: "Jaro", sanserif;
+}
+
+#buttonCounter3 {
+    padding: 2px;
+    display: inline-flex;
+    height: 2em;
+    background-image: linear-gradient(to right, #6d6875, #ffcdb2);
+    border-radius: 12%;
+    font-family: "Jaro", sanserif;
 }
 
 #buttonCount {
     justify-content: center;
+    display: block;
 }
