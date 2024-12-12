@@ -20,6 +20,9 @@ div {
     justify-content: center;
     font-family: "Jaro", sanserif;
     text-align: center;
+    box-shadow: 5px 5px;
+    border-style: solid;
+    padding: 1em;
 }
 
 #buttonCounter {
@@ -52,5 +55,5 @@ div {
 #buttonCount {
     justify-content: center;
     display: block;
-    font-size: 3em;
+    font-size: 5em;
 }
